@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Pocetna stranica</title>
+        <link rel="stylesheet" href="stil.css">
+        <script src="skript.js"></script>
+    </head>
+    <body>
+        <div class="col-12 header">
+            <div class="col-6 tit">
+                <p><b>Miroljub Djokic</b></p>
+            </div>
+            <div class="col-6 nav">
+                <ul>
+                    <li><b><a href="indeks.html">Pocetna</a></b></li>
+                    <li><b><a href="bio.html">Biografija</a></b></li>
+                    <li><b><a href="galerija.html">Galerija</a></b></li>
+                    <li><b><a href="muzika.html">Muzika</a></b></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 forma">
+            <table>
+                <tr>
+                    <td>Korisnicko Ime:</td>
+                    <td><input type="text" name="ime" id="ime"></td>
+                    <td><p class="upozorenje" id="prvi"></p></td>
+                </tr>
+                <tr>
+                    <td>Lozinka:</td>
+                    <td><input type="text" name="loz" id="loz"></td>
+                    <td><p class="upozorenje" id="drugi"></p></td>
+                </tr>
+                <tr>
+                    <td>Potvrda:</td>
+                    <td><input type="text" name="potloz" id="potloz"></td>
+                    <td><p class="upozorenje" id="treci"></p></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="text" name="mail" id="mail"></td>
+                    <td><p class="upozorenje" id="cetvrti"></p></td>
+                </tr>
+            </table>
+            <p>
+                <input class="dugme" type="submit" value="unesi u lokalno" onclick="unesilocal('ime','loz','dat')">
+                     
+                <input class="dugme" type="reset" value="obrisi">
+            </p>
+        </div>
+        <div class="col-12 footer">
+            <div class="col-5 lef">
+                <p><a href="bio.html">Miroljub Djokic</a></p>
+            </div>
+            <div class="col-5 rif">
+                <ul>
+                    <li><a href="forma.html">Forma za kontakt</a></li>
+                    <li><a href="info.html">Tabela naloga</a></li>
+                    <li>Djokic Enterprise &copy;2020</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

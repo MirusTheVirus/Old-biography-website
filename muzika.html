@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Pocetna stranica</title>
+        <link rel="stylesheet" href="stil.css">
+        <script src="skript.js"></script>
+    </head>
+    <body>
+        <div class="col-12 header">
+            <div class="col-6 tit">
+                <p><b>Miroljub Djokic</b></p>
+            </div>
+            <div class="col-6 nav">
+                <ul>
+                    <li><b><a href="indeks.html">Pocetna</a></b></li>
+                    <li><b><a href="bio.html">Biografija</a></b></li>
+                    <li><b><a href="galerija.html">Galerija</a></b></li>
+                    <li><b><a href="muzika.html">Muzika</a></b></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 muzika">
+            <p>
+                Posto nisam znao sta da postavim kao dodatnu stranicu, odlucio sam se da ubacim plejer sa pet nasumicnih matrica koje sam napravio.
+                Kod radi tako sto se prilikom klika na tastere menja source fajla koji pusta audio plejer. Fajlovi su numerisani od 1 do 5. 
+                <u>Sve matrice su napravljene na <q>FL Studio</q>, i sve melodije sam napravio sam.</u>
+            </p>
+            <audio id="plejer" controls>
+                <source id="pesma" src="audio/1.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="col-12 muzika">
+            <input id="nazad" class="pb" type="button" value="prethodni" onclick="nazad()">
+            <input id="napred" class="pb" type="button" value="sledeci" onclick="napred()">
+        </div>
+        <div class="col-12 footer">
+            <div class="col-5 lef">
+                <p><a href="bio.html">Miroljub Djokic</a></p>
+            </div>
+            <div class="col-5 rif">
+                <ul>
+                    <li><a href="forma.html">Forma za kontakt</a></li>
+                    <li><a href="info.html">Tabela naloga</a></li>
+                    <li>Djokic Enterprise &copy;2020</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
